@@ -1,0 +1,13 @@
+<nav class="text-white">
+  <div class="w-full lg:w-[70%] mx-auto flex items-center justify-center">
+    <ul class="flex space-x-4 mt-8">
+      <li *ngFor="let menuItem of menuItems">
+        <a
+          href="#"
+          class="hover:bg-emerald-800 text-xs lg:text-sm bg-emerald-600 p-4 rounded-lg"
+          >{{ menuItem }}</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
