@@ -2,11 +2,11 @@
 
 # GreenSeed: Virtual Plant Growth System 🌱
 
-GreenSeed offers a dynamic simulation of plat growth, providing immediate visual feedback based on varying inputs and conditions.
+GreenSeed offers a dynamic simulation of plant growth, providing immediate visual feedback based on varying inputs and conditions.
 
 You're able to track real-time insights and responsiveness to help understand plant behavior and growth patterns.
 
-## Core Features 🚀
+## Core Features to Expand App 🚀
 
 - [ ] User Account Management: Simple user management system to save and manage user-specific plant simulations.
 - [ ] Plant Selection Library: A curated list of a few common plants/crops. Each choice will have basic growth patterns and requirements.
