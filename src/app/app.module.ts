@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -10,6 +11,8 @@ import { UserDropDownComponent } from './components/menu/user-dropdown/user-drop
 import { NotificationBadgeComponent } from './components/menu/notification-badge/notification-badge.component';
 import { PlantListComponent } from './components/plant-library/plant-list/plant-list.component';
 import { PlantDetailComponent } from './components/plant-library/plant-detail/plant-detail.component';
+import { UserInputComponent } from './components/growth-simulator/user-inputs/user-inputs.component';
+import { GrowthVizComponent } from './components/growth-simulator/growth-viz/growth-viz.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +23,10 @@ import { PlantDetailComponent } from './components/plant-library/plant-detail/pl
     NotificationBadgeComponent,
     PlantListComponent,
     PlantDetailComponent,
+    UserInputComponent,
+    GrowthVizComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

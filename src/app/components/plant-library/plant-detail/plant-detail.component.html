@@ -2,26 +2,32 @@
   *ngIf="plant; else noPlantSelected"
   class="plant-detail-container w-[70%] mx-auto mt-12 p-8 bg-white rounded-lg shadow-md"
 >
-  <div class="flex flex-col items-start justify-between mb-4">
-    <div
-      class="plant-image w-32 h-32 p-4 bg-orange-100 rounded-lg shadow-inner"
-    >
-      <img
-        [src]="'assets/plants/' + plant.image"
-        alt="{{ plant.name }}"
-        class="w-full h-full object-cover"
-      />
+  <div class="flex flex-row items-start justify-between mb-4 gap-4">
+    <div class="flex flex-col">
+      <div
+        class="plant-image w-32 h-32 p-4 bg-orange-100 rounded-lg shadow-inner"
+      >
+        <img
+          [src]="'assets/plants/' + plant.image"
+          alt="{{ plant.name }}"
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <h1 class="text-sm font-bold uppercase w-fit mt-4">{{ plant.name }}</h1>
     </div>
-    <h1 class="text-sm font-bold uppercase w-fit mt-4">{{ plant.name }}</h1>
+    <div class="border w-full rounded-lg">
+      <growth-viz></growth-viz>
+    </div>
   </div>
 
+  <user-input></user-input>
   <button
     (click)="toggleShowMore()"
     class="my-4 w-40 bg-emerald-700 text-white px-4 py-2 rounded shadow-md hover:bg-emerald-900"
   >
     {{ showMore ? "Hide Details" : "Show Details" }}
   </button>
-  <div class="more border border-1 p-4 rounded">
+  <div class="more border border-1 p-4 rounded" *ngIf="showMore">
     <div class="plant-description mb-4">
       <p class="text-sm">{{ plant.description }}</p>
     </div>
