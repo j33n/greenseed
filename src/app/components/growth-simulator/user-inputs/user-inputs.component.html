@@ -4,8 +4,15 @@
       <img src="assets/thermometer.svg" alt="" class="w-16" />
     </div>
     <div class="border rounded-r-lg border-l-0 flex items-center px-4">
-      <input (input)="onTemperatureChange($event)" [(ngModel)]="temperature.value" type="range" min="0" max="40" />
-      <span class="font-bold ml-4"> {{ temperature.value }}°C </span>
+      <input
+        (input)="onTemperatureChange($event)"
+        [(ngModel)]="temperature().value"
+        name="temperature"
+        type="range"
+        min="0"
+        max="40"
+      />
+      <span class="font-bold ml-4"> {{ temperature().value }}°C </span>
     </div>
   </div>
 
@@ -14,8 +21,15 @@
       <img src="assets/sun.svg" alt="" class="w-16" />
     </div>
     <div class="border rounded-r-lg border-l-0 flex items-center px-4">
-      <input (input)="onSunlightChange($event)" [(ngModel)]="sunlight.value" type="range" min="0" max="24" />
-      <span class="font-bold ml-4"> {{ sunlight.value }} hours </span>
+      <input
+        (input)="onSunlightChange($event)"
+        [(ngModel)]="sunlight().value"
+        name="sunlight"
+        type="range"
+        min="0"
+        max="24"
+      />
+      <span class="font-bold ml-4"> {{ sunlight().value }} hours </span>
     </div>
   </div>
 
@@ -24,13 +38,17 @@
       <img src="assets/drop.png" alt="" class="w-16" />
     </div>
     <div class="border rounded-r-lg border-l-0 flex items-center px-4">
-      <input (input)="onWaterChange($event)" [(ngModel)]="water.value" type="range" min="0" max="1000" />
-      <span class="font-bold ml-4"> {{ water.value }} ml </span>
+      <input
+        (input)="onWaterChange($event)"
+        [(ngModel)]="water().value"
+        name="water"
+        type="range"
+        min="0"
+        max="1000"
+      />
+      <span class="font-bold ml-4"> {{ water().value }} ml </span>
     </div>
   </div>
 
-  <div class="">
-    
-    
-  </div>
+  <div class=""></div>
 </form>

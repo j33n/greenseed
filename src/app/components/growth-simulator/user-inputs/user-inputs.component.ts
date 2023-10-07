@@ -1,23 +1,31 @@
-import { Component } from '@angular/core';
+import { Component, signal, effect } from '@angular/core';
 
 @Component({
   selector: 'user-input',
   templateUrl: './user-inputs.component.html',
 })
 export class UserInputComponent {
-  temperature = { value: signal(0) };
-  sunlight = { value: 8 };
-  water = { value: 500 };
+  temperature = signal({ value: 25 });
+  sunlight = signal({ value: 8 });
+  water = signal({ value: 500 });
+
+  constructor() {
+    effect(() => {
+      console.log(`Temperature: ${this.temperature().value}`);
+      console.log(`Sunlight: ${this.sunlight().value}`);
+      console.log(`Water: ${this.water().value}`);
+    });
+  }
 
   onTemperatureChange(event: any): void {
-    this.temperature.value = event.target.value;
+    this.temperature.set({ value: event.target.value });
   }
 
   onSunlightChange(event: any): void {
-    this.sunlight.value = event.target.value;
+    this.sunlight.set({ value: event.target.value });
   }
 
   onWaterChange(event: any): void {
-    this.water.value = event.target.value;
+    this.water.set({ value: event.target.value });
   }
 }
