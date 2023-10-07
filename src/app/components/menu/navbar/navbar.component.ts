@@ -9,7 +9,8 @@ export class NavbarComponent implements OnInit {
   public menuItems: string[];
 
   constructor() {
-    this.menuItems = ['Plant Library', 'Growth Simulator', 'Growth Timeline'];
+    // this.menuItems = ['Plant Library', 'Growth Simulator', 'Growth Timeline'];
+    this.menuItems = ['Plant Library'];
   }
 
   ngOnInit(): void {}
