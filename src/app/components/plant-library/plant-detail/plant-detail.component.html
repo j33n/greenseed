@@ -1,0 +1,15 @@
+<div *ngIf="plant; else noPlantSelected" class="plant-detail-container">
+    <h1>Details for: {{ plant.name }}</h1>
+    <div class="plant-image">
+        <img [src]="'assets/plants/' + plant.image" alt="{{ plant.name }}" />
+    </div>
+    <div class="plant-description">
+        <p>This section can have a description or other details about the plant.</p>
+    </div>
+</div>
+
+<ng-template #noPlantSelected>
+    <div class="no-plant">
+        <p>No plant selected or plant not found.</p>
+    </div>
+</ng-template>

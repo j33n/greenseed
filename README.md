@@ -32,6 +32,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+### Storage
+
+We are using LocalStorage to store key-value pairs in a web browser. The localStorage object stores the data with no expiration time. Data stored will persist even after the browser is closed.
+
 ### Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).

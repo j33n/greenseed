@@ -1,0 +1,89 @@
+{
+    "plants": [
+        {
+            "category": "vegetables",
+            "items": [
+                {
+                    "id": "1",
+                    "name": "french beans",
+                    "image": "beans.svg"
+                },
+                {
+                    "id": "2",
+                    "name": "eggplant",
+                    "image": "eggplant.svg"
+                },
+                {
+                    "id": "3",
+                    "name": "snow peas",
+                    "image": "peas.svg"
+                },
+                {
+                    "id": "4",
+                    "name": "mushrooms",
+                    "image": "mushroom.svg"
+                },
+                {
+                    "id": "5",
+                    "name": "onions",
+                    "image": "onion.svg"
+                },
+                {
+                    "id": "6",
+                    "name": "carrots",
+                    "image": "carrots.svg"
+                }
+            ]
+        },
+        {
+            "category": "fruits",
+            "items": [
+                {
+                    "id": "7",
+                    "name": "pineapple",
+                    "image": "pineapple.svg"
+                },
+                {
+                    "id": "8",
+                    "name": "avocado",
+                    "image": "avocado.svg"
+                },
+                {
+                    "id": "9",
+                    "name": "mango",
+                    "image": "mango.svg"
+                },
+                {
+                    "id": "10",
+                    "name": "banana",
+                    "image": "banana.svg"
+                }
+            ]
+        },
+        {
+            "category": "flowers",
+            "items": [
+                {
+                    "id": "11",
+                    "name": "generic flower",
+                    "image": "flowers.svg"
+                }
+            ]
+        },
+        {
+            "category": "others",
+            "items": [
+                {
+                    "id": "12",
+                    "name": "wheat",
+                    "image": "wheat.svg"
+                },
+                {
+                    "id": "13",
+                    "name": "cassava leaves",
+                    "image": "leaves.svg"
+                }
+            ]
+        }
+    ]
+}

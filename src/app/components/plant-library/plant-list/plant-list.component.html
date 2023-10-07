@@ -1,0 +1,21 @@
+<div
+  class="flex w-[90%] lg:w-[70%] items-center justify-center my-10 drop-shadow-lg bg-lime-100 rounded-lg mx-auto flex-col gap-4 flex-wrap py-4 h-fit"
+>
+  <div *ngFor="let plantCategory of plants" class="p-2">
+    <h2 class="text-lg font-bold capitalize">{{ plantCategory.category }}</h2>
+    <div class="plant-list grid grid-cols-4 gap-4 mt-4">
+      <div
+        *ngFor="let plant of plantCategory.items"
+        class="border border-1 w-24 h-24 flex flex-col items-center justify-center gap-2 rounded-xl shadow-lg bg-neutral-50 hover:bg-neutral-200 cursor-pointer"
+        [routerLink]="['/plant-detail', plant.id]"
+      >
+        <img
+          [src]="'assets/plants/' + plant.image"
+          alt="{{ plant.name }}"
+          class="w-12 h-12"
+        />
+        <p class="w-full text-xs text-center capitalize">{{ plant.name }}</p>
+      </div>
+    </div>
+  </div>
+</div>
