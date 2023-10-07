@@ -6,32 +6,200 @@
                 {
                     "id": "1",
                     "name": "french beans",
-                    "image": "beans.svg"
+                    "image": "beans.svg",
+                    "description": "",
+                    "growthDuration": "55-60 days",
+                    "waterNeeds": {
+                        "level": "Moderate",
+                        "frequency": "2"
+                    },
+                    "sunlightNeeds": "Full sun.",
+                    "temperatureRange": {
+                        "min": 18,
+                        "max": 25
+                    },
+                    "soilType": "Loamy soil with good drainage.",
+                    "pests": [
+                        "Aphids",
+                        "Bean Beetles"
+                    ],
+                    "diseases": [
+                        "Bean Rust",
+                        "Mosaic Virus"
+                    ],
+                    "plantingInstructions": "Sow seeds 1 inch deep and 2 inches apart in rows that are 2.5 feet apart. Water moderately after planting.",
+                    "harvestInstructions": "Harvest when pods are firm and have reached their full length, but before the seeds inside have fully developed.",
+                    "nutrition": {
+                        "calories": "31 per 100g",
+                        "protein": "1.8g per 100g",
+                        "vitaminC": "15% of daily value"
+                    },
+                    "history": "French beans are believed to have originated in Peru and were introduced to Europe in the 16th century."
                 },
                 {
                     "id": "2",
                     "name": "eggplant",
-                    "image": "eggplant.svg"
+                    "image": "eggplant.svg",
+                    "description": "Eggplants are glossy, purple vegetables known for their versatility in cooking.",
+                    "growthDuration": "60-80 days",
+                    "waterNeeds": {
+                        "level": "Moderate",
+                        "frequency": "3"
+                    },
+                    "sunlightNeeds": "Full sun to partial shade.",
+                    "temperatureRange": {
+                        "min": 21,
+                        "max": 27
+                    },
+                    "soilType": "Well-drained, sandy loam.",
+                    "pests": [
+                        "Aphids",
+                        "Spider Mites"
+                    ],
+                    "diseases": [
+                        "Fungal Leaf Spots",
+                        "Root Rot"
+                    ],
+                    "plantingInstructions": "Sow seeds indoors 8-10 weeks before the last spring frost. Transplant to garden after danger of frost.",
+                    "harvestInstructions": "Harvest when skin is glossy and dark purple.",
+                    "nutrition": {
+                        "calories": "25 per 100g",
+                        "protein": "1g per 100g",
+                        "vitaminC": "3% of daily value"
+                    },
+                    "history": "Eggplants are native to India where they've been cultivated for over 4,000 years."
                 },
                 {
                     "id": "3",
                     "name": "snow peas",
-                    "image": "peas.svg"
+                    "image": "peas.svg",
+                    "description": "Snow peas are flat with very small peas inside; both the peas and pod are edible.",
+                    "growthDuration": "58-70 days",
+                    "waterNeeds": {
+                        "level": "Moderate",
+                        "frequency": "3"
+                    },
+                    "sunlightNeeds": "Full sun.",
+                    "temperatureRange": {
+                        "min": 18,
+                        "max": 22
+                    },
+                    "soilType": "Rich, well-drained soil.",
+                    "pests": [
+                        "Aphids",
+                        "Leafminers"
+                    ],
+                    "diseases": [
+                        "Powdery Mildew",
+                        "Root Rot"
+                    ],
+                    "plantingInstructions": "Plant seeds in early spring as soon as soil can be worked. Space seeds 2-3 inches apart.",
+                    "harvestInstructions": "Harvest when pods are young, tender, and several inches long.",
+                    "nutrition": {
+                        "calories": "42 per 100g",
+                        "protein": "2.8g per 100g",
+                        "vitaminC": "60% of daily value"
+                    },
+                    "history": "Snow peas are believed to have originated in the Mediterranean basin."
                 },
                 {
                     "id": "4",
                     "name": "mushrooms",
-                    "image": "mushroom.svg"
+                    "image": "mushroom.svg",
+                    "description": "Mushrooms are fungi, known for their earthy flavor and rich nutrients.",
+                    "growthDuration": "15-20 days",
+                    "waterNeeds": {
+                        "level": "High",
+                        "frequency": "Every day"
+                    },
+                    "sunlightNeeds": "Shade to partial sunlight.",
+                    "temperatureRange": {
+                        "min": 16,
+                        "max": 24
+                    },
+                    "soilType": "Organic-rich, well-aerated soil.",
+                    "pests": [
+                        "Fungus Gnats",
+                        "Mites"
+                    ],
+                    "diseases": [
+                        "Mold",
+                        "Brown Blight"
+                    ],
+                    "plantingInstructions": "Sow mushroom spores or plugs in compost-rich soil. Maintain high humidity.",
+                    "harvestInstructions": "Harvest when caps are fully open but before spores drop.",
+                    "nutrition": {
+                        "calories": "22 per 100g",
+                        "protein": "3.1g per 100g",
+                        "vitaminD": "7% of daily value"
+                    },
+                    "history": "Mushrooms have been consumed by humans for thousands of years and are cultivated worldwide."
                 },
                 {
                     "id": "5",
                     "name": "onions",
-                    "image": "onion.svg"
+                    "image": "onion.svg",
+                    "description": "Onions are bulbous vegetables known for their pungent smell and taste.",
+                    "growthDuration": "90-120 days",
+                    "waterNeeds": {
+                        "level": "Low to Moderate",
+                        "frequency": "2-3 times a week"
+                    },
+                    "sunlightNeeds": "Full sun.",
+                    "temperatureRange": {
+                        "min": 12,
+                        "max": 25
+                    },
+                    "soilType": "Loamy, well-drained soil.",
+                    "pests": [
+                        "Thrips",
+                        "Onion Maggots"
+                    ],
+                    "diseases": [
+                        "Downy Mildew",
+                        "Blight"
+                    ],
+                    "plantingInstructions": "Plant onion sets or seedlings in early spring, about 1 inch deep.",
+                    "harvestInstructions": "Harvest when tops fall over and turn yellow.",
+                    "nutrition": {
+                        "calories": "40 per 100g",
+                        "protein": "1.1g per 100g",
+                        "vitaminC": "12% of daily value"
+                    },
+                    "history": "Onions have been cultivated for over 5,000 years and are used in cuisines worldwide."
                 },
                 {
                     "id": "6",
                     "name": "carrots",
-                    "image": "carrots.svg"
+                    "image": "carrots.svg",
+                    "description": "Carrots are root vegetables, usually orange in color, known for their crunchy texture.",
+                    "growthDuration": "70-80 days",
+                    "waterNeeds": {
+                        "level": "Moderate",
+                        "frequency": "2-3 times a week"
+                    },
+                    "sunlightNeeds": "Full sun.",
+                    "temperatureRange": {
+                        "min": 16,
+                        "max": 24
+                    },
+                    "soilType": "Sandy, well-drained soil.",
+                    "pests": [
+                        "Carrot Fly",
+                        "Aphids"
+                    ],
+                    "diseases": [
+                        "Leaf Blight",
+                        "Root Rot"
+                    ],
+                    "plantingInstructions": "Sow carrot seeds directly in the garden, about 1/2 inch deep.",
+                    "harvestInstructions": "Harvest when roots have a bright color and desired size.",
+                    "nutrition": {
+                        "calories": "41 per 100g",
+                        "protein": "0.9g per 100g",
+                        "vitaminA": "104% of daily value"
+                    },
+                    "history": "Carrots have been cultivated since ancient times and were originally purple or yellow."
                 }
             ]
         },
@@ -41,22 +209,134 @@
                 {
                     "id": "7",
                     "name": "pineapple",
-                    "image": "pineapple.svg"
+                    "image": "pineapple.svg",
+                    "description": "Pineapples are tropical fruits known for their sweet and tangy flavor.",
+                    "growthDuration": "12-20 months",
+                    "waterNeeds": {
+                        "level": "Moderate",
+                        "frequency": "3-4 times a week"
+                    },
+                    "sunlightNeeds": "Full sun.",
+                    "temperatureRange": {
+                        "min": 21,
+                        "max": 32
+                    },
+                    "soilType": "Well-drained, sandy loam.",
+                    "pests": [
+                        "Mealybugs",
+                        "Aphids"
+                    ],
+                    "diseases": [
+                        "Fusarium wilt",
+                        "Heart rot"
+                    ],
+                    "plantingInstructions": "Plant suckers or slips in well-draining soil. Avoid waterlogging.",
+                    "harvestInstructions": "Harvest when skin turns golden yellow and leaves are easily plucked.",
+                    "nutrition": {
+                        "calories": "50 per 100g",
+                        "protein": "0.5g per 100g",
+                        "vitaminC": "79% of daily value"
+                    },
+                    "history": "Pineapples originate from South America and were spread by indigenous people before European discovery."
                 },
                 {
                     "id": "8",
                     "name": "avocado",
-                    "image": "avocado.svg"
+                    "image": "avocado.svg",
+                    "description": "Avocados are creamy, green fruits known for their high content of healthy fats.",
+                    "growthDuration": "4-6 years to fruit after planting a tree.",
+                    "waterNeeds": {
+                        "level": "Moderate",
+                        "frequency": "2-3 times a week"
+                    },
+                    "sunlightNeeds": "Full sun to partial shade.",
+                    "temperatureRange": {
+                        "min": 15,
+                        "max": 24
+                    },
+                    "soilType": "Well-drained, sandy or loamy soil.",
+                    "pests": [
+                        "Aphids",
+                        "Fruit Flies"
+                    ],
+                    "diseases": [
+                        "Root rot",
+                        "Anthracnose"
+                    ],
+                    "plantingInstructions": "Plant young avocado trees in spring. Ensure proper spacing between trees.",
+                    "harvestInstructions": "Harvest when fruits give slightly under gentle pressure.",
+                    "nutrition": {
+                        "calories": "160 per 100g",
+                        "protein": "2g per 100g",
+                        "vitaminE": "10% of daily value"
+                    },
+                    "history": "Avocados have been cultivated in Central and South America for thousands of years."
                 },
                 {
                     "id": "9",
                     "name": "mango",
-                    "image": "mango.svg"
+                    "image": "mango.svg",
+                    "description": "Mangos are juicy, tropical fruits known for their sweet and aromatic flesh.",
+                    "growthDuration": "3-5 years to fruit after planting a tree.",
+                    "waterNeeds": {
+                        "level": "Moderate",
+                        "frequency": "2 times a week"
+                    },
+                    "sunlightNeeds": "Full sun.",
+                    "temperatureRange": {
+                        "min": 21,
+                        "max": 30
+                    },
+                    "soilType": "Deep, well-drained soil.",
+                    "pests": [
+                        "Fruit Flies",
+                        "Mango Mealybug"
+                    ],
+                    "diseases": [
+                        "Powdery Mildew",
+                        "Anthracnose"
+                    ],
+                    "plantingInstructions": "Plant grafted saplings in the rainy season. Avoid waterlogging.",
+                    "harvestInstructions": "Harvest when skin turns slightly yellow and fruit emits a fruity aroma.",
+                    "nutrition": {
+                        "calories": "60 per 100g",
+                        "protein": "0.8g per 100g",
+                        "vitaminA": "21% of daily value"
+                    },
+                    "history": "Mangos have been grown in South Asia for thousands of years."
                 },
                 {
                     "id": "10",
                     "name": "banana",
-                    "image": "banana.svg"
+                    "image": "banana.svg",
+                    "description": "Bananas are elongated, yellow fruits known for their soft texture and sweet flavor.",
+                    "growthDuration": "9-12 months",
+                    "waterNeeds": {
+                        "level": "Moderate",
+                        "frequency": "3-4 times a week"
+                    },
+                    "sunlightNeeds": "Full sun to partial shade.",
+                    "temperatureRange": {
+                        "min": 24,
+                        "max": 30
+                    },
+                    "soilType": "Loamy soil that's well-draining.",
+                    "pests": [
+                        "Banana Weevil",
+                        "Nematodes"
+                    ],
+                    "diseases": [
+                        "Panama Disease",
+                        "Black Sigatoka"
+                    ],
+                    "plantingInstructions": "Plant banana suckers in well-draining soil, ensuring they're spaced adequately. Water regularly but avoid waterlogging.",
+                    "harvestInstructions": "Harvest when fingers are plump and ridges have rounded off, even if the skin is still green.",
+                    "nutrition": {
+                        "calories": "105 per medium banana",
+                        "protein": "1.3g per medium banana",
+                        "potassium": "422 mg per medium banana"
+                    },
+                    "history": "Bananas have been cultivated in regions of Southeast Asia and the Pacific for thousands of years."
                 }
             ]
         },
@@ -66,7 +346,30 @@
                 {
                     "id": "11",
                     "name": "generic flower",
-                    "image": "flowers.svg"
+                    "image": "flowers.svg",
+                    "description": "Generic flowers represent a wide range of floral species used mainly for decorative purposes.",
+                    "growthDuration": "Varies by species.",
+                    "waterNeeds": {
+                        "level": "Varies",
+                        "frequency": "Varies"
+                    },
+                    "sunlightNeeds": "Varies",
+                    "temperatureRange": {
+                        "min": 10,
+                        "max": 30
+                    },
+                    "soilType": "Typically well-drained soil.",
+                    "pests": [
+                        "Aphids",
+                        "Thrips"
+                    ],
+                    "diseases": [
+                        "Mold",
+                        "Rot"
+                    ],
+                    "plantingInstructions": "Depends on the specific species.",
+                    "harvestInstructions": "N/A for decorative flowers.",
+                    "history": "Flowers have been adored for their beauty and fragrance for millennia."
                 }
             ]
         },
@@ -76,12 +379,66 @@
                 {
                     "id": "12",
                     "name": "wheat",
-                    "image": "wheat.svg"
+                    "image": "wheat.svg",
+                    "description": "Wheat is a staple grain used mainly for making bread and other baked goods.",
+                    "growthDuration": "90-150 days",
+                    "waterNeeds": {
+                        "level": "Moderate",
+                        "frequency": "1-2 times a week"
+                    },
+                    "sunlightNeeds": "Full sun.",
+                    "temperatureRange": {
+                        "min": 12,
+                        "max": 25
+                    },
+                    "soilType": "Loamy to clayey soil with good drainage.",
+                    "pests": [
+                        "Aphids",
+                        "Wheat Midge"
+                    ],
+                    "diseases": [
+                        "Rust",
+                        "Blight"
+                    ],
+                    "plantingInstructions": "Sow wheat seeds in well-prepared soil during the cool season.",
+                    "harvestInstructions": "Harvest when grains are dry and ears have turned yellow.",
+                    "nutrition": {
+                        "calories": "340 per 100g",
+                        "protein": "13g per 100g"
+                    },
+                    "history": "Wheat has been cultivated by humans for over 10,000 years."
                 },
                 {
                     "id": "13",
                     "name": "cassava leaves",
-                    "image": "leaves.svg"
+                    "image": "leaves.svg",
+                    "description": "Cassava leaves are often consumed in some cultures as a green vegetable. They are rich in protein and vitamins.",
+                    "growthDuration": "8-12 months",
+                    "waterNeeds": {
+                        "level": "High",
+                        "frequency": "3-4 times a week"
+                    },
+                    "sunlightNeeds": "Full sun.",
+                    "temperatureRange": {
+                        "min": 21,
+                        "max": 32
+                    },
+                    "soilType": "Well-draining soil.",
+                    "pests": [
+                        "Whiteflies",
+                        "Mites"
+                    ],
+                    "diseases": [
+                        "Mosaic Virus",
+                        "Root Rot"
+                    ],
+                    "plantingInstructions": "Plant cassava stem cuttings in upright positions in prepared mounds or ridges.",
+                    "harvestInstructions": "Leaves can be harvested periodically without harming the plant.",
+                    "nutrition": {
+                        "calories": "44 per 100g",
+                        "protein": "3.7g per 100g"
+                    },
+                    "history": "Cassava, native to South America, has been cultivated in tropical regions for thousands of years."
                 }
             ]
         }

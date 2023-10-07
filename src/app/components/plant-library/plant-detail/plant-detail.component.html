@@ -1,15 +1,74 @@
-<div *ngIf="plant; else noPlantSelected" class="plant-detail-container">
-    <h1>Details for: {{ plant.name }}</h1>
-    <div class="plant-image">
-        <img [src]="'assets/plants/' + plant.image" alt="{{ plant.name }}" />
+<div
+  *ngIf="plant; else noPlantSelected"
+  class="plant-detail-container w-[70%] mx-auto mt-12 p-8 bg-white rounded-lg shadow-md"
+>
+  <div class="flex flex-col items-start justify-between mb-4">
+    <div
+      class="plant-image w-32 h-32 p-4 bg-orange-100 rounded-lg shadow-inner"
+    >
+      <img
+        [src]="'assets/plants/' + plant.image"
+        alt="{{ plant.name }}"
+        class="w-full h-full object-cover"
+      />
     </div>
-    <div class="plant-description">
-        <p>This section can have a description or other details about the plant.</p>
+    <h1 class="text-sm font-bold uppercase w-fit mt-4">{{ plant.name }}</h1>
+  </div>
+
+  <button
+    (click)="toggleShowMore()"
+    class="my-4 w-40 bg-emerald-700 text-white px-4 py-2 rounded shadow-md hover:bg-emerald-900"
+  >
+    {{ showMore ? "Hide Details" : "Show Details" }}
+  </button>
+  <div class="more border border-1 p-4 rounded">
+    <div class="plant-description mb-4">
+      <p class="text-sm">{{ plant.description }}</p>
     </div>
+
+    <div class="plant-details grid grid-cols-2 gap-4">
+      <div>
+        <span class="font-bold">Growth Duration: </span>
+        {{ plant.growthDuration }}
+      </div>
+      <div>
+        <span class="font-bold">Water Needs: </span>
+        {{ plant.waterNeeds.level }} - {{ plant.waterNeeds.frequency }} times a
+        week
+      </div>
+      <div>
+        <span class="font-bold">Sunlight Needs: </span>
+        {{ plant.sunlightNeeds }}
+      </div>
+      <div>
+        <span class="font-bold">Temperature Range: </span>
+        {{ plant.temperatureRange.min }}°C - {{ plant.temperatureRange.max }}°C
+      </div>
+      <div><span class="font-bold">Soil Type: </span> {{ plant.soilType }}</div>
+      <div>
+        <span class="font-bold">Pests: </span> {{ plant.pests.join(", ") }}
+      </div>
+      <div class="col-span-2">
+        <span class="font-bold">Planting Instructions: </span>
+        {{ plant.plantingInstructions }}
+      </div>
+      <div class="col-span-2">
+        <span class="font-bold">Harvest Instructions: </span>
+        {{ plant.harvestInstructions }}
+      </div>
+      <div class="col-span-2">
+        <span class="font-bold">Nutrition: </span> Calories:
+        {{ plant.nutrition.calories }}, Protein: {{ plant.nutrition.protein }}
+      </div>
+      <div class="col-span-2">
+        <span class="font-bold">History: </span> {{ plant.history }}
+      </div>
+    </div>
+  </div>
 </div>
 
 <ng-template #noPlantSelected>
-    <div class="no-plant">
-        <p>No plant selected or plant not found.</p>
-    </div>
+  <div class="no-plant mt-12 text-center p-8 rounded-lg shadow-md bg-red-50">
+    <p class="text-lg text-red-600">No plant selected or plant not found.</p>
+  </div>
 </ng-template>

@@ -12,6 +12,7 @@ import plantsData from '../../../data/plants.json';
 export class PlantDetailComponent implements OnInit {
   plantId?: string;
   plant: any;
+  showMore: boolean = false;
 
   constructor(private route: ActivatedRoute, private router: Router) {}
 
@@ -24,6 +25,10 @@ export class PlantDetailComponent implements OnInit {
     } else {
       this.router.navigate(['/']);
     }
+  }
+
+  toggleShowMore() {
+    this.showMore = !this.showMore;
   }
 
   getPlantById(id: string): void {
