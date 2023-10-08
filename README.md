@@ -2,6 +2,10 @@
 
 # GreenSeed: Virtual Plant Growth System 🌱
 
+Demo: https://greenseed-sable.vercel.app/
+
+This is a demo app from my 2023 GDGKigali talk titled "What's with Signals Anyway?"
+
 GreenSeed offers a dynamic simulation of plant growth, providing immediate visual feedback based on varying inputs and conditions.
 
 You're able to track real-time insights and responsiveness to help understand plant behavior and growth patterns.
